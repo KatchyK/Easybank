@@ -1,3 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
 html,body{
     scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+button{
+    background: linear-gradient(to right,#31CF71 ,#2BB9CC);
+    color: rgb(217, 233, 247);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 800; 
+    border-color: aliceblue;   
+}
+main{
+    background-color: #F3F4F6;
+}
+.main{
+    display: flex;
+    background-color: #F3F4F6;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+.main div{
+    width: 50%;
+    padding: 15px 10px;
+}
+.main h1{
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+.main p{
+    font-size: 20px;
+}
+.main img{
+    width: 40%;
+}
+.header{
+    font-size: 20px;
+    width: 40%;
+}
+.header{
+    padding: 20px 40px;
+    width: 50%;
+}
+.header h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.header p{
+    padding-bottom: 20px;
+}
+section .img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 30px;
+}
+section div img{
+    padding-bottom: 20px;
+}
+section div p{
+    padding-bottom: 10px;
+}
+div h3{
+    font-size: 30px;
+    padding: 30px;
+}
+.art{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 10px;
+    padding: 30px;
+    /* width: 25%; */
+}
+.art div div{
+    padding: 20px;
+    font-size: 14px;
+}
+.art > div{
+    box-shadow: 10px 10px 5px gray;
+}
+    .art img{
+    width: 100%;
+}
+.Article{
+    color: rgb(52, 185, 103);
+}
+footer{
+    background-color: #2D314D;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px ;
+    padding: 30px 0px 20px 50px;
+}
+footer img{
+    filter: invert(.3);
+    padding-bottom: 3px;
+}
+footer a{
+color: #ffffff;}
+footer .link{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+
+}
+.link li{
+    list-style: none;
+    padding: 10px;
+
+}
+footer p{
+    color: #ffffff;
+}
+footer button{
+align-self: right;
+}
+.last{
+margin-left: 10px;
 }
