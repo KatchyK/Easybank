@@ -15,27 +15,31 @@
         <a href="/">
             <img src="images/logo.svg" alt="Logo">
         </a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Careers</a></li>
-        </ul>
-        <div>
-            <button>Request Invite</button>
+        <div class="toggler">
+            <i class="ri-menu-line"></i>
+            <i class="ri-close-line"></i>
         </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blogs</a></li>
+            <li><a href="#contact">Careers</a></li>
+        </ul>
+        <!-- <div> -->
+            <button>Request Invite</button>
+        <!-- </div> -->
     </nav>
     <main>
-        <div class="main">
-            <div>
-                <h1>Next generation digital banking</h1>
-                <p>Take your financial life online. Your easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
-                <div><button>Request Invite</button></div>
-            </div>   
-            <img src="images/image-mockups.png" alt="larger">   
-        </div>
+        <div>
+            <h1>Next generation digital banking</h1>
+            <p>Take your financial life online. Your easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
+            <button>Request Invite</button>
+        </div>   
+        <img src="images/image-mockups.png" alt="larger">   
+        <!-- <div class="main">
+        </div> -->
     </main>
-    <section>
+    <section id="about">
         <div class="header">
             <h1>Why choose Easybank?</h1>
             <p>We leaverage Open Banking to turn your bank account into your financial hub. Control your finances like never before.</p>
@@ -63,7 +67,7 @@
             </div>
         </Div>
     </section>
-    <section>
+    <section id="blog">
         <div>
             <h3>Latest Article</h3>
         </div>
@@ -103,7 +107,7 @@
             </div>     
         </div>
     </section>
-    <footer>
+    <footer id="contact">
         <div>
             <a href="/"><img src="images/logo.svg" alt="logo"></a>
             <br><br>
@@ -116,14 +120,14 @@
             </ul>
         </div>
         <div class="link">
-            <div class="about us1">
+            <!-- <div class="about us1"> -->
                 <ul>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
-            </div>
-            <div>
+            <!-- </div> -->
+            <!-- <div> -->
                 <ul>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Support</a></li>
@@ -137,5 +141,7 @@
             <p>© Easybank. All Rights Reserved</p>
         </div>
     </footer>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
